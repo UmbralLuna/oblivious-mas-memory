@@ -1,0 +1,15 @@
+{
+    "exp_id": "exp2_correctness",
+    "description": "Circuit correctness validation",
+    "test_matrix": {
+        "valid_fixtures": 100,
+        "invalid_fixtures": 100,
+        "differential_runs": 1000,
+        "pbt_properties": 10,
+        "pbt_runs_per_property": 200,
+        "boundary_cases": 30,
+        "boundary_runs_per_case": 100
+    },
+    "platform": "edge",
+    "output_dir": "analysis/results/exp2_correctness"
+}

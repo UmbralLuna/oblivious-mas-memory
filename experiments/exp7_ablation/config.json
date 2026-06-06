@@ -1,0 +1,14 @@
+{
+    "exp_id": "exp7_ablation",
+    "description": "Ablation study with 6 variants",
+    "variants": {
+        "no_g4": { "platform": "prod", "metric": "leakage_score" },
+        "no_g43": { "platform": "prod", "metric": "depth_diff" },
+        "no_g5": { "platform": "prod", "metric": "tag_relax_success" },
+        "no_g61": { "platform": "edge", "metric": "collusion_block" },
+        "plaintext_id": { "platform": "edge", "metric": "id_inference_acc" },
+        "no_session_token": { "platform": "edge", "metric": "e2e_p50" }
+    },
+    "tasks_per_variant": 100,
+    "output_dir": "analysis/results/exp7_ablation"
+}

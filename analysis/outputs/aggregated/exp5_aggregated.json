@@ -1,0 +1,56 @@
+[
+  {
+    "baseline": "ours",
+    "verify_latency_ms": 12,
+    "task_completion_rate": 1,
+    "attack_block_rate": 0.7733333333333333,
+    "normal_count": 500,
+    "attack_count": 150,
+    "attack_blocked_count": 116
+  },
+  {
+    "baseline": "no_ac",
+    "verify_latency_ms": 0,
+    "task_completion_rate": 1,
+    "attack_block_rate": 0,
+    "normal_count": 500,
+    "attack_count": 150,
+    "attack_blocked_count": 0
+  },
+  {
+    "baseline": "rbac",
+    "verify_latency_ms": 1,
+    "task_completion_rate": 1,
+    "attack_block_rate": 0.5333333333333333,
+    "normal_count": 500,
+    "attack_count": 150,
+    "attack_blocked_count": 80
+  },
+  {
+    "baseline": "abac",
+    "verify_latency_ms": 2,
+    "task_completion_rate": 1,
+    "attack_block_rate": 0.56,
+    "normal_count": 500,
+    "attack_count": 150,
+    "attack_blocked_count": 84
+  },
+  {
+    "baseline": "collab_memory",
+    "verify_latency_ms": 5,
+    "task_completion_rate": 1,
+    "attack_block_rate": 0.14,
+    "normal_count": 500,
+    "attack_count": 150,
+    "attack_blocked_count": 21
+  },
+  {
+    "baseline": "aip",
+    "verify_latency_ms": 8,
+    "task_completion_rate": 1,
+    "attack_block_rate": 0.62,
+    "normal_count": 500,
+    "attack_count": 150,
+    "attack_blocked_count": 93
+  }
+]

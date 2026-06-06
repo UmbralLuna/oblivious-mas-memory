@@ -1,0 +1,44 @@
+{
+    "roles": {
+        "rd_dept": {
+            "partitions": {
+                "rd_project_records": ["read", "write"],
+                "rd_technical_docs": ["read", "write"],
+                "company_knowledge_base": ["read"],
+                "standard_workflows": ["read"]
+            }
+        },
+        "finance_dept": {
+            "partitions": {
+                "finance_records": ["read", "write"],
+                "finance_budgets": ["read", "write"],
+                "company_knowledge_base": ["read"],
+                "standard_workflows": ["read"]
+            }
+        },
+        "legal_dept": {
+            "partitions": {
+                "legal_docs": ["read", "write"],
+                "legal_contracts": ["read", "write"],
+                "company_knowledge_base": ["read"],
+                "standard_workflows": ["read"]
+            }
+        },
+        "marketing_dept": {
+            "partitions": {
+                "marketing_data": ["read", "write"],
+                "marketing_campaigns": ["read", "write"],
+                "company_knowledge_base": ["read"],
+                "standard_workflows": ["read"]
+            }
+        },
+        "ops_dept": {
+            "partitions": {
+                "ops_logs": ["read", "write"],
+                "ops_metrics": ["read", "write"],
+                "company_knowledge_base": ["read"],
+                "standard_workflows": ["read"]
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "variant": "no_g4",
+    "count": 200,
+    "prove_p50": 2881.580638,
+    "verify_p50": 20.184521,
+    "prove_mean": 2883.6079390849995,
+    "verify_mean": 19.668979134999994
+  },
+  {
+    "variant": "no_g43",
+    "count": 200,
+    "prove_p50": 2886.066767,
+    "verify_p50": 19.795253,
+    "prove_mean": 2883.194670225001,
+    "verify_mean": 20.049377584999977
+  },
+  {
+    "variant": "no_g5",
+    "count": 200,
+    "prove_p50": 2918.805254,
+    "verify_p50": 19.760133,
+    "prove_mean": 2914.934903150002,
+    "verify_mean": 19.55199206999999
+  },
+  {
+    "variant": "no_g61",
+    "count": 200,
+    "prove_p50": 2885.879508,
+    "verify_p50": 19.949222,
+    "prove_mean": 2883.756691539999,
+    "verify_mean": 19.955902294999998
+  },
+  {
+    "variant": "plaintext_id",
+    "count": 200,
+    "prove_p50": 2881.365913,
+    "verify_p50": 20.012033,
+    "prove_mean": 2880.9750898949987,
+    "verify_mean": 19.794767755
+  },
+  {
+    "variant": "no_session_token",
+    "count": 200,
+    "prove_p50": 2885.252589,
+    "verify_p50": 20.054388,
+    "prove_mean": 2883.9076278950006,
+    "verify_mean": 19.982769305000005
+  }
+]

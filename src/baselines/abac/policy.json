@@ -1,0 +1,64 @@
+{
+    "rules": [
+        {
+            "id": "rule_same_dept_full",
+            "description": "Same department full access",
+            "effect": "allow",
+            "conditions": {
+                "agent_dept": "partition_dept"
+            }
+        },
+        {
+            "id": "rule_public_read",
+            "description": "Public knowledge base readable by all",
+            "effect": "allow",
+            "conditions": {
+                "partition_sensitivity": "< 0.2",
+                "operation": "read"
+            }
+        },
+        {
+            "id": "rule_workflow_read",
+            "description": "Standard workflows readable by all",
+            "effect": "allow",
+            "conditions": {
+                "partition_type": "procedural",
+                "operation": "read"
+            }
+        },
+        {
+            "id": "rule_cross_dept_sanitized",
+            "description": "Cross-dept access requires sanitization for high sensitivity",
+            "effect": "allow",
+            "conditions": {
+                "partition_sensitivity": "< 0.7",
+                "partition_sanitized": "true",
+                "operation": "read"
+            }
+        },
+        {
+            "id": "rule_deny_high_sens_cross_dept",
+            "description": "Deny high-sensitivity cross-dept",
+            "effect": "deny",
+            "conditions": {
+                "partition_sensitivity": ">= 0.7",
+                "cross_dept": "true"
+            }
+        },
+        {
+            "id": "rule_legal_override",
+            "description": "Legal department can read all docs",
+            "effect": "allow",
+            "conditions": {
+                "agent_dept": "legal",
+                "operation": "read"
+            }
+        },
+        {
+            "id": "rule_default_deny",
+            "description": "Default deny",
+            "effect": "deny",
+            "conditions": {}
+        }
+    ]
+}

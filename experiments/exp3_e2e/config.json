@@ -1,0 +1,13 @@
+{
+    "output_dir": "analysis/results/exp3_e2e",
+    "scenarios": {
+        "enterprise": {
+            "num_tasks": 500,
+            "num_attack_tasks": 150,
+            "task_template_ratio": {
+                "read": 0.7,
+                "write": 0.3
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Build outputs
+dist/
+dist-test/
+build/
+*.tsbuildinfo
+
+# Circuit build artifacts
+circuits/build/
+circuits/tests/build/
+*.r1cs
+*.wasm
+*.sym
+*_js/
+
+# ZKP artifacts
+artifacts/keys/*.zkey
+artifacts/keys/*.ptau
+!artifacts/keys/README.md
+!artifacts/keys/pedersen_h.json
+artifacts/proofs/
+artifacts/witnesses/
+
+# Data
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/raw/
+data/processed/
+data/attacks/
+!data/seed_data.ts
+!data/fixtures/
+
+# Logs
+logs/*.log
+logs/experiments/
+!logs/llm_cache/
+
+# Test outputs
+coverage/
+.nyc_output/
+test-results/
+*.lcov
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Analysis outputs
+analysis/results/*/raw/
+analysis/results/*/*.csv
+analysis/results/*/*.pdf
+analysis/results/*/figures/
+
+# Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Docker
+*.log.docker
+
+# Temp files
+tmp/
+temp/
+*.bak
+*.orig
+
+# Experiment artifacts
+experiments/output/
+experiments/cache/

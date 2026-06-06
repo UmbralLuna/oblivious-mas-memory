@@ -1,0 +1,89 @@
+[
+  {
+    "defense": "mwpp_only",
+    "attacks": [
+      {
+        "attack": "A_unauthorized",
+        "block_rate": 1,
+        "detect_rate": 1,
+        "count": 200
+      },
+      {
+        "attack": "B_obvious",
+        "block_rate": 0,
+        "detect_rate": 0,
+        "count": 200
+      },
+      {
+        "attack": "C_adversarial",
+        "block_rate": 0,
+        "detect_rate": 0,
+        "count": 200
+      },
+      {
+        "attack": "D_collusion",
+        "block_rate": 0,
+        "detect_rate": 0,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "defense": "content_only",
+    "attacks": [
+      {
+        "attack": "A_unauthorized",
+        "block_rate": 0,
+        "detect_rate": 0,
+        "count": 200
+      },
+      {
+        "attack": "B_obvious",
+        "block_rate": 1,
+        "detect_rate": 1,
+        "count": 200
+      },
+      {
+        "attack": "C_adversarial",
+        "block_rate": 0.6,
+        "detect_rate": 0.6,
+        "count": 200
+      },
+      {
+        "attack": "D_collusion",
+        "block_rate": 1,
+        "detect_rate": 1,
+        "count": 100
+      }
+    ]
+  },
+  {
+    "defense": "combined",
+    "attacks": [
+      {
+        "attack": "A_unauthorized",
+        "block_rate": 1,
+        "detect_rate": 1,
+        "count": 200
+      },
+      {
+        "attack": "B_obvious",
+        "block_rate": 1,
+        "detect_rate": 1,
+        "count": 200
+      },
+      {
+        "attack": "C_adversarial",
+        "block_rate": 0.6,
+        "detect_rate": 0.6,
+        "count": 200
+      },
+      {
+        "attack": "D_collusion",
+        "block_rate": 1,
+        "detect_rate": 1,
+        "count": 100
+      }
+    ]
+  }
+]

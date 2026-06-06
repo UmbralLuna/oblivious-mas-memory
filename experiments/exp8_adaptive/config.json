@@ -1,0 +1,11 @@
+{
+    "exp_id": "exp8_adaptive",
+    "description": "Adaptive attack experiments",
+    "platform": "prod",
+    "attacks": {
+        "white_box_circuit": { "count": 100, "expected_block_rate": 0.95 },
+        "scope_fuzzing": { "count": 50, "expected_block_rate": 1.0 },
+        "rl_collusion": { "count": 30, "expected_block_rate": 0.9 }
+    },
+    "output_dir": "analysis/results/exp8_adaptive"
+}

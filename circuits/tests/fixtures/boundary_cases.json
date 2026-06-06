@@ -1,0 +1,12 @@
+[
+  {"input": {"parent_depth": "0", "child_depth": "0"}, "expect": "reject"},
+  {"input": {"parent_depth": "1", "child_depth": "0"}, "expect": "accept"},
+  {"input": {"parent_depth": "255", "child_depth": "254"}, "expect": "accept"},
+  {"input": {"parent_perm": "0", "child_perm": "1"}, "expect": "reject"},
+  {"input": {"parent_perm": "15", "child_perm": "15"}, "expect": "accept"},
+  {"input": {"parent_perm": "15", "child_perm": "7"}, "expect": "accept"},
+  {"input": {"parent_exp": "1735689600", "child_exp": "1735689601"}, "expect": "reject"},
+  {"input": {"parent_exp": "1735689600", "child_exp": "1735689600"}, "expect": "accept"},
+  {"input": {"current_time": "1735689600", "child_exp": "1735689600"}, "expect": "reject"},
+  {"input": {"current_time": "1735689599", "child_exp": "1735689600"}, "expect": "accept"}
+]

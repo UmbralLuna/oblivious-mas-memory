@@ -1,0 +1,13 @@
+{
+    "exp_id": "exp4_defense",
+    "description": "Two-layer defense (MWPP + content detection)",
+    "attack_scenarios": {
+        "A_unauthorized": 100,
+        "B_obvious": 100,
+        "C_adversarial": 100,
+        "D_collusion": 50
+    },
+    "detectors": ["A_isolation_forest", "B_gpt4o_mini", "C_gpt4o"],
+    "defenses": ["mwpp_only", "content_only", "combined"],
+    "output_dir": "analysis/results/exp4_defense"
+}

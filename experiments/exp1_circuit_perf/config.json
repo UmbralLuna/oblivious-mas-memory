@@ -1,0 +1,22 @@
+{
+    "exp_id": "exp1_circuit_perf",
+    "description": "Circuit performance benchmark across N_a and d_s configurations",
+    "configurations": {
+        "prod": {
+            "N_a_values": [4, 8, 16, 32],
+            "d_s_values": [4, 6],
+            "iterations_per_config": 100,
+            "warmup_runs": 5
+        },
+        "edge": {
+            "N_a_values": [16],
+            "d_s_values": [6],
+            "iterations_per_config": 50,
+            "warmup_runs": 3,
+            "batch_size": 100,
+            "cooldown_ms": 600000
+        }
+    },
+    "circuits": ["delegate", "write"],
+    "output_dir": "analysis/results/exp1_circuit_perf"
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "baseline": "ours",
+    "count": 1300,
+    "success_rate": 1,
+    "duration_p50": 12,
+    "duration_p95": 12,
+    "duration_mean": 12
+  },
+  {
+    "baseline": "no_ac",
+    "count": 1300,
+    "success_rate": 1,
+    "duration_p50": 0,
+    "duration_p95": 0,
+    "duration_mean": 0
+  },
+  {
+    "baseline": "rbac",
+    "count": 1300,
+    "success_rate": 1,
+    "duration_p50": 1,
+    "duration_p95": 1,
+    "duration_mean": 1
+  },
+  {
+    "baseline": "abac",
+    "count": 1300,
+    "success_rate": 1,
+    "duration_p50": 2,
+    "duration_p95": 2,
+    "duration_mean": 2
+  },
+  {
+    "baseline": "collab_memory",
+    "count": 1300,
+    "success_rate": 1,
+    "duration_p50": 5,
+    "duration_p95": 5,
+    "duration_mean": 5
+  },
+  {
+    "baseline": "aip",
+    "count": 1300,
+    "success_rate": 1,
+    "duration_p50": 8,
+    "duration_p95": 8,
+    "duration_mean": 8
+  }
+]

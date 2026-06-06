@@ -1,0 +1,17 @@
+{
+    "exp_id": "exp5_comparison",
+    "description": "6-baseline 8-dimension comparison",
+    "baselines": ["no_ac", "rbac", "abac", "collab_memory", "aip", "ours"],
+    "dimensions": [
+        "verify_latency",
+        "task_completion",
+        "attack_block_rate",
+        "leakage_score",
+        "type_awareness",
+        "delegation_chain",
+        "privacy",
+        "throughput"
+    ],
+    "data_source": "Reuses Exp1 (perf) + Exp3 (security/function)",
+    "output_dir": "analysis/results/exp5_comparison"
+}

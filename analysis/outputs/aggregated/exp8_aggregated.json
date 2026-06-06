@@ -1,0 +1,17 @@
+[
+  {
+    "attack": "white_box_circuit",
+    "count": 100,
+    "block_rate": 1
+  },
+  {
+    "attack": "scope_fuzzing",
+    "count": 50,
+    "block_rate": 1
+  },
+  {
+    "attack": "rl_collusion",
+    "count": 30,
+    "block_rate": 1
+  }
+]

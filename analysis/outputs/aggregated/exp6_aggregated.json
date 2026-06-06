@@ -1,0 +1,26 @@
+[
+  {
+    "n_agents": 10,
+    "count": 1,
+    "duration_mean": 10.72694,
+    "duration_min": 10.72694,
+    "duration_max": 10.72694,
+    "throughput_tps": 932.2323048325057
+  },
+  {
+    "n_agents": 50,
+    "count": 1,
+    "duration_mean": 50.140509,
+    "duration_min": 50.140509,
+    "duration_max": 50.140509,
+    "throughput_tps": 997.1976949815169
+  },
+  {
+    "n_agents": 100,
+    "count": 1,
+    "duration_mean": 100.193752,
+    "duration_min": 100.193752,
+    "duration_max": 100.193752,
+    "throughput_tps": 998.066226724397
+  }
+]

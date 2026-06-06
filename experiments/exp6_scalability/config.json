@@ -1,0 +1,13 @@
+{
+    "exp_id": "exp6_scalability",
+    "description": "Scalability testing on Prod platform",
+    "platform": "prod",
+    "dimensions": {
+        "n_agents": [10, 50, 100],
+        "delegation_depth": [1, 2, 3, 5],
+        "concurrent_qps": [1, 10, 50, 100],
+        "nullifier_set_size": [1000, 100000]
+    },
+    "iterations_per_config": 100,
+    "output_dir": "analysis/results/exp6_scalability"
+}
